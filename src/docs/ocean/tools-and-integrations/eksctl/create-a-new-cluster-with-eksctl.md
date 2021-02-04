@@ -33,7 +33,7 @@ $ export AWS_SECRET_ACCESS_KEY=<aws_secret_access_key>
 Alternatively, you can use the AWS credentials file. For more information, see [Quick Configuration](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-config) with aws configure.
 
 ## Install eksctl
-
+Ocean by Spot integration with EKSCTL requires our fork of the binary be used to manage the clusters. Obtain the latest version of the Spot fork of EKSCTL below:
 1. Download and extract the `eksctl` binary with the following command.
 
 ```sh
